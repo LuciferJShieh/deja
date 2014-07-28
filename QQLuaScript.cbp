@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="QQLuaScript" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="Release\deja" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release\obj" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-Os" />
+					<Add option="-Wall" />
+					<Add option="-fno-rtti" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add directory="luajit\include" />
+					<Add directory="iup\include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-ltts -liuplua51 -liup -lgdi32 -lcomdlg32 -lcomctl32 -lole32 -lsapi" />
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="luajit" />
+					<Add library="shlwapi" />
+					<Add directory="luajit\lib" />
+					<Add directory="iup\lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-fexpensive-optimizations" />
+			<Add option="-Os" />
+			<Add option="-Wno-strict-aliasing" />
+		</Compiler>
+		<Linker>
+			<Add option="-s" />
+		</Linker>
+		<Unit filename="deja.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

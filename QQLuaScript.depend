@@ -1,0 +1,372 @@
+# depslib dependency file v1.0
+1350565308 source:c:\users\shuax\documents\qqluascript\main.cpp
+	"main.h"
+
+1350563502 c:\users\shuax\documents\qqluascript\main.h
+	<stdio.h>
+	<windows.h>
+	<winbase.h>
+	<tchar.h>
+	<lua.hpp>
+	"Util.h"
+	"QQPatchTool.h"
+	"QQHookEngine.h"
+	"InjectDll.h"
+	"SkinsPatch.h"
+	"split.h"
+	"BossKey.h"
+
+1350412200 c:\users\shuax\documents\qqluascript\luajit\include\lua.hpp
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+	"luajit.h"
+
+1350412200 c:\users\shuax\documents\qqluascript\luajit\include\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1350562096 c:\users\shuax\documents\qqluascript\luajit\include\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<assert.h>
+
+1350412200 c:\users\shuax\documents\qqluascript\luajit\include\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1350412200 c:\users\shuax\documents\qqluascript\luajit\include\lualib.h
+	"lua.h"
+
+1350412200 c:\users\shuax\documents\qqluascript\luajit\include\luajit.h
+	"lua.h"
+
+1348999618 c:\users\shuax\documents\qqluascript\util.h
+
+1349793972 c:\users\shuax\documents\qqluascript\qqpatchtool.h
+
+1349791185 c:\users\shuax\documents\qqluascript\qqhookengine.h
+	<windows.h>
+	<malloc.h>
+	"DisassembleProlog.h"
+
+1331946853 c:\users\shuax\documents\qqluascript\disassembleprolog.h
+
+1349792587 c:\users\shuax\documents\qqluascript\injectdll.h
+
+1350301831 c:\users\shuax\documents\qqluascript\skinspatch.h
+	<shlobj.h>
+
+1350175271 c:\users\shuax\documents\qqluascript\luacom\luacom.cpp
+	<string.h>
+	<stdlib.h>
+	<ole2.h>
+	<ocidl.h>
+	<htmlhelp.h>
+	<assert.h>
+	<stdio.h>
+	<math.h>
+	"lua.h"
+	"lauxlib.h"
+	"tStringBuffer.cpp"
+	"LuaCompat.cpp"
+	"luabeans.cpp"
+	"luacom.h"
+	"tLuaDispatch.cpp"
+	"tLuaControl.cpp"
+	"tLuaCOM.cpp"
+	"tLuaCOMException.cpp"
+	"tCOMUtil.cpp"
+	"tLuaCOMClassFactory.cpp"
+	"tLuaCOMTypeHandler.cpp"
+	"tLuaCOMConnPoints.cpp"
+	"luacom_internal.h"
+	"LuaAux.cpp"
+	"tUtil.cpp"
+	"tLuaCOMEnumerator.cpp"
+	"tLuaTLB.cpp"
+	"tLuaVector.cpp"
+	"tLuaObject.cpp"
+	"tLuaObjList.cpp"
+	<wchar.h>
+	"luacom5.loh"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tstringbuffer.cpp
+	<string.h>
+	"tStringBuffer.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tstringbuffer.h
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\luacompat.cpp
+	<assert.h>
+	<string.h>
+	<lua.h>
+	<lauxlib.h>
+	"LuaCompat.h"
+	"LuaAux.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\luacompat.h
+	"tStringBuffer.h"
+	<lua.h>
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\luaaux.h
+	"lua.h"
+	"tStringBuffer.h"
+	<assert.h>
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\luabeans.cpp
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<lua.h>
+	<lauxlib.h>
+	"LuaCompat.h"
+	"luabeans.h"
+	"tLuaCOMException.h"
+	"LuaAux.h"
+	"tUtil.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\luabeans.h
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluacomexception.h
+	<windows.h>
+	"tStringBuffer.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tutil.h
+	<windows.h>
+	<stdio.h>
+	"tStringBuffer.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\luacom.h
+
+1350175036 c:\users\shuax\documents\qqluascript\luacom\tluadispatch.cpp
+	"tLuaDispatch.h"
+	"tLuaCOM.h"
+	"tLuaCOMException.h"
+	"tCOMUtil.h"
+	"LuaAux.h"
+	"tUtil.h"
+	"LuaCompat.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluadispatch.h
+	<string.h>
+	<ole2.h>
+	<ocidl.h>
+	<assert.h>
+	<stdio.h>
+	<lua.h>
+	<lauxlib.h>
+	"luabeans.h"
+	"tLuaCOMTypeHandler.h"
+	"tLuaCOMConnPoints.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluacomtypehandler.h
+	<ole2.h>
+	"luabeans.h"
+	"tLuaObjList.h"
+	"LuaAux.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluaobjlist.h
+	"lua.h"
+	"tUtil.h"
+	"LuaAux.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluacomconnpoints.h
+	"luabeans.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluacom.h
+	<ole2.h>
+	<ocidl.h>
+	<lua.h>
+	<lauxlib.h>
+	"luabeans.h"
+	"tLuaCOMTypeHandler.h"
+	"tLuaObjList.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tcomutil.h
+	<windows.h>
+	<oleauto.h>
+	"tStringBuffer.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluacontrol.cpp
+	<ole2.h>
+	<oleidl.h>
+	<ocidl.h>
+	<olectl.h>
+	"lua.h"
+	"lualib.h"
+	<lauxlib.h>
+	"LuaCompat.h"
+	"luacom_internal.h"
+	"tLuaDispatch.h"
+	"tLuaControl.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\luacom_internal.h
+	"luabeans.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluacontrol.h
+	<ole2.h>
+	<oleidl.h>
+	<ocidl.h>
+	"tLuaDispatch.h"
+
+1350175049 c:\users\shuax\documents\qqluascript\luacom\tluacom.cpp
+	"tLuaCOM.h"
+	"tLuaDispatch.h"
+	"LuaAux.h"
+	"tUtil.h"
+	"tLuaCOMException.h"
+	"tCOMUtil.h"
+	"LuaCompat.h"
+	<initguid.h>
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluacomexception.cpp
+	<string.h>
+	<stdio.h>
+	"tLuaCOMException.h"
+	"tUtil.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tcomutil.cpp
+	<stdio.h>
+	<ocidl.h>
+	<shlwapi.h>
+	<wchar.h>
+	"tCOMUtil.h"
+	"tLuaCOMException.h"
+	"tUtil.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluacomclassfactory.cpp
+	"lua.h"
+	"LuaCompat.h"
+	"luacom.h"
+	"tLuaCOMClassFactory.h"
+	"tLuaCOMException.h"
+	"tUtil.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluacomclassfactory.h
+	"lua.h"
+	<unknwn.h>
+
+1350175002 c:\users\shuax\documents\qqluascript\luacom\tluacomtypehandler.cpp
+	<ole2.h>
+	<lua.h>
+	"LuaCompat.h"
+	<assert.h>
+	<stdio.h>
+	"tLuaCOMTypeHandler.h"
+	"tLuaCOM.h"
+	"tLuaVector.h"
+	"tLuaCOMException.h"
+	"tLuaDispatch.h"
+	"tCOMUtil.h"
+	"tLuaCOMEnumerator.h"
+	"tUtil.h"
+	"LuaAux.h"
+	"luabeans.h"
+	"luacom_internal.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluavector.h
+	"lua.h"
+	"tLuaCOM.h"
+	"luabeans.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluacomenumerator.h
+	<wtypes.h>
+	<oleauto.h>
+	"lua.h"
+	"tLuaCOMTypeHandler.h"
+	"luabeans.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluacomconnpoints.cpp
+	<windows.h>
+	<ole2.h>
+	<olectl.h>
+	<ocidl.h>
+	"tLuaCOM.h"
+	"tLuaCOMConnPoints.h"
+	"tCOMUtil.h"
+	"tLuaCOMException.h"
+	"LuaAux.h"
+	"luacom_internal.h"
+	"LuaCompat.h"
+
+1350175139 c:\users\shuax\documents\qqluascript\luacom\luaaux.cpp
+	<stdio.h>
+	<assert.h>
+	<string.h>
+	"LuaAux.h"
+	"LuaCompat.h"
+
+1350175145 c:\users\shuax\documents\qqluascript\luacom\tutil.cpp
+	<assert.h>
+	<process.h>
+	<limits.h>
+	"tUtil.h"
+	"tLuaCOMException.h"
+	<lua.h>
+	<lauxlib.h>
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluacomenumerator.cpp
+	"tLuaCOMEnumerator.h"
+	"tUtil.h"
+	"tCOMUtil.h"
+	"tLuaCOMException.h"
+	"LuaAux.h"
+	"luacom_internal.h"
+	"LuaCompat.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluatlb.cpp
+	"tLuaTLB.h"
+	"tCOMUtil.h"
+	"tLuaCOMException.h"
+	"tUtil.h"
+	"luacom_internal.h"
+	"LuaAux.h"
+	"tLuaCOM.h"
+	"tLuaCOMTypeHandler.h"
+	"LuaCompat.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluatlb.h
+	<ocidl.h>
+	"tLuaObject.h"
+	"tLuaCOMTypeHandler.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluaobject.h
+	<lua.h>
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluavector.cpp
+	<stdio.h>
+	<assert.h>
+	"tLuaVector.h"
+	"tLuaCOM.h"
+	"LuaAux.h"
+	"tLuaCOMException.h"
+	"LuaCompat.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluaobjlist.cpp
+	"tLuaObjList.h"
+	"tLuaCOMException.h"
+
+1340280722 c:\users\shuax\documents\qqluascript\luacom\tluaobject.cpp
+	<stdio.h>
+	<string.h>
+	"tLuaObject.h"
+	"LuaAux.h"
+	"tLuaCOMException.h"
+	"luacom_internal.h"
+	"tUtil.h"
+	"LuaCompat.h"
+
+1350481654 c:\users\shuax\documents\qqluascript\split.h
+	<string.h>
+	<malloc.h>
+
+1350565281 c:\users\shuax\documents\qqluascript\bosskey.h
+	<ctype.h>
+	<process.h>
+
+1332046588 source:c:\users\shuax\documents\qqluascript\deja.rc
+	<windows.h>
+
